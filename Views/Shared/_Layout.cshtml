@@ -1,0 +1,22 @@
+﻿
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Closed Circuit</title>
+    <link href="~/lib/css/style.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div class="topnav">
+            <li>
+                <a asp-action="Index">Home</a>
+                <a asp-action="Scores">Scoreboard</a>
+                <a asp-action="Contact">Contact</a>
+                <a asp-action="Login">Login / Register</a>
+            </li>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

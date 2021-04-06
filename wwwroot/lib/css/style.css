@@ -1,0 +1,87 @@
+﻿:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    text-align:center;
+}
+
+/* Style the top navigation bar */
+.topnav{
+    overflow:hidden;
+    background-color:gray;
+}
+
+.topnav li{
+    list-style:none;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color:white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+.main {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+    .main img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+/* Style the footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #777777;
+    color: white;
+    text-align: center;
+}
