@@ -11,6 +11,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using ClosedCircuit.Models;
+using Microsoft.AspNetCore.Identity;
 
 
 namespace ClosedCircuit
@@ -36,7 +37,7 @@ namespace ClosedCircuit
             services.AddSession();
             services.AddDbContext<CCGameDBContext>(opts => {
                 opts.UseSqlServer(
-                Configuration["ConnectionStrings:LocalConnection"]);
+                Configuration["ConnectionStrings:GameConnection"]);
             });
             services.AddScoped<IGameRepo, EFGameRepo>();
         }
@@ -47,15 +48,13 @@ namespace ClosedCircuit
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
+
             app.UseSession();
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-            });
+            { endpoints.MapDefaultControllerRoute(); });
+            RoundData.EnsurePop(app);
         }
     }
 }

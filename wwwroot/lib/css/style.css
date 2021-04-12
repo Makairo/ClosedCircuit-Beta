@@ -33,6 +33,17 @@ body {
     text-align:center;
 }
 
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+th, td{
+    padding: 5px;
+}
+
 /* Style the top navigation bar */
 .topnav{
     overflow:hidden;
