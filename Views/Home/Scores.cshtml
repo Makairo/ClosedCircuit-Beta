@@ -1,24 +1,26 @@
 ﻿@model IQueryable<Round>
-<div>
+
     <h4>This is a placeholder scoreboard.</h4>
     <p>Instead of the scores, I'm listing round spawn information for the game.</p>
-    <table>
-        <tr>
-            <th>Round Number</th>
-            <th>Small Spawns</th>
-            <th>Fat Spawns</th>
-            <th>Fast Spawns</th>
-            <th>Large Spawns</th>
-        </tr>
-        @foreach (var r in Model)
-        {
-            <tr>
-            <td>@r.RoundNumber</td>
-            <td>@r.SmallSpawn</td>
-            <td>@r.FatSpawn</td>
-            <td>@r.FastSpawn</td>
-            <td>@r.BigSpawn</td>
+
+    <div>
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr style="border: 1px solid black;">
+                <th style="text-align:center; border: 1px solid black;">Round Number</th>
+                <th style="text-align:center; border: 1px solid black;">Small Spawns</th>
+                <th style="text-align:center; border: 1px solid black;">Fat Spawns</th>
+                <th style="text-align:center; border: 1px solid black;">Fast Spawns</th>
+                <th style="text-align:center; border: 1px solid black;">Large Spawns</th>
             </tr>
-        }
-    </table>
-</div>
+            @foreach (var r in Model)
+            {
+                <tr>
+                    <td style="text-align:center; border: 1px solid black;">@r.RoundNumber</td>
+                    <td style="text-align:center; border: 1px solid black;">@r.SmallSpawn</td>
+                    <td style="text-align:center; border: 1px solid black;">@r.FatSpawn</td>
+                    <td style="text-align:center; border: 1px solid black;">@r.FastSpawn</td>
+                    <td style="text-align:center; border: 1px solid black;">@r.BigSpawn</td>
+                </tr>
+            }
+        </table>
+    </div>

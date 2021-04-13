@@ -33,16 +33,24 @@ body {
     text-align:center;
 }
 
-table{
+.board {
     width: 100%;
 }
 
-table, th, td{
+.board table td th {
     border: 1px solid black;
 }
-th, td{
-    padding: 5px;
+
+.board table {
+    border-collapse: collapse;
+    width: 100%;
 }
+
+.board td {
+    text-align: center;
+}
+
+
 
 /* Style the top navigation bar */
 .topnav{
@@ -79,12 +87,14 @@ th, td{
     text-align: center;
 }
 
-    .main img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
-    }
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+
 
 /* Style the footer */
 .footer {
