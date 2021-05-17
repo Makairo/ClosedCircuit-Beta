@@ -12,7 +12,7 @@ Reqs<br>
 | 2.4 | Database is stored and accessed correctly | inspection |  |
 
 <br>
-Testing
+Test Cases
 
 | TestID | Req ID | Test Proc | Current | Date |
 | ------ | ------ | --------- | ------- | ---- |
