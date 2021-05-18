@@ -7,7 +7,9 @@ The original idea for my project was to be a Top down 2D tower defence game, and
 The game originally was to be written in JavaScript, but with more research and pressure to get a product ready, I went with Unity instead, and took alot of time to focus and learn how the engine works. <br>
 <br>
 2 Code and Architecture Walk-Through <br>
-![HTML Code](Screenshot_158.jpg)<br>
-![Unity Screenshot](Screenshot_160.jpg)<br>
-![Code Screenshot](Screenshot_161.jpg)<br>
+![HTML Code](/Screenshot_158.jpg "1")<br>
+![Unity Screenshot](/Screenshot_160.jpg "2")<br>
+![Code Screenshot](/Screenshot_161.jpg "3")<br>
+
+
 
