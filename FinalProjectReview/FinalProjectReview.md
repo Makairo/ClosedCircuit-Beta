@@ -18,15 +18,15 @@ What did I do **RIGHT?**
 - HTML and JavaScript experimentation (helped with other projects!)
 - Learning to manage a FTP server with domains.
 - Pacing myself not to overload myself or burn out.
-- Music. Saved my sanity.
+- Music. Saved my sanity. <br>
 What did I do **WRONG?**
 - Waiting too long to start work with Unity.
 - ASP.NET attempt straight away with Unity scripts.
-- Experimenting too much with hosting services.
+- Experimenting too much with hosting services. <br>
 Where was I **LUCKY?**
 - Unity! Great engine and software.
 - Other projects, this project turned into probably the LEAST developed honestly, but my other projects helped me learn more for this and kept me from burnout.
-- My classmates, shoutout to Johnathan S, Brandon, Tim, and Gabriel for being awesome. Extra shoutouts for inspiration and support to Jonathan R, Wes, Darius, and Dantz.
+- My classmates, shoutout to Johnathan S, Brandon, Tim, and Gabriel for being awesome. Extra shoutouts for inspiration and support to Jonathan R, Wes, Darius, and Dantz. <br>
 What would I **CHANGE?**
 - I'd definitely dive into Unity ALOT sooner, I'd have made alot more progress.
 - At least one more attempt with ASP.NET implementation.
