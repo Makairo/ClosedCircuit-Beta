@@ -18,6 +18,7 @@ What did I do **RIGHT?**
 - HTML and JavaScript experimentation (helped with other projects!)
 - Learning to manage a FTP server with domains.
 - Pacing myself not to overload myself or burn out.
+- Music. Saved my sanity.
 What did I do **WRONG?**
 - Waiting too long to start work with Unity.
 - ASP.NET attempt straight away with Unity scripts.
