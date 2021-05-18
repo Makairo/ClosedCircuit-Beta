@@ -30,7 +30,7 @@ What did I do **WRONG?**
 Where was I **LUCKY?**
 - Unity! Great engine and software.
 - Other projects, this project turned into probably the LEAST developed honestly, but my other projects helped me learn more for this and kept me from burnout.
-- My classmates, shoutout to Johnathan S, Brandon, Tim, and Gabriel for being awesome. Extra shoutouts for inspiration and support to Jonathan R, Wes, Darius, and Dantz. <br>
+- My classmates, shoutout to Johnathan S, Brandon, Tim, and Gabriel for being awesome. Extra shoutouts for inspiration and support to Jonathan R, Wes, Darius, and Dantz.
 
 
 What would I **CHANGE?**
