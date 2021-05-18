@@ -12,6 +12,8 @@ Here is a overview of my first scene as of this presentation.
 <br>
 **3 Product Demonstration**<br>
 [Closed Circuit Game](https://closedcircuitgame.net/Index.html)<br><br>
+Very first stable build of the game.
+Unfortunately, since tower targeting and other aspects are not yet implemented, all you can do is lose! Sorry!<br><br>
 **4 Lessons Learned**<br>
 What did I do **RIGHT?**
 - JavaScript to Unity decision
