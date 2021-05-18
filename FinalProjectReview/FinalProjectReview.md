@@ -5,6 +5,6 @@ The original idea for my project was to be a Top down 2D tower defence game, and
 **2 Code and Architecture Review** <br>
 The base for my site is not yet written in ASP.NET, but instead just HTML. The reason for this was to practice more with HTML and CSS styling and also to test implementation of JavaScript and Unity scripts being hosted without anything else complicating it.
 ![Code1](Code1.jpeg)
-
+Unity Scripts themselves are written in C#, with the gameobjects and components being made and managed with the unity engine itself.
 ![Code2](Code2.jpeg)
 ![Code3](Code3.jpg)
